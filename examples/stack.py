@@ -16,5 +16,5 @@ class Stack(object):
         return node
 
 class Node(object):
-    def __init__(self, item, nextnode):
-        self.item, self.nextnode = item, nextnode
+    def __init__(self, element, next):
+        self.element, self.next = element, next
