@@ -1,6 +1,6 @@
 class Stack(object):
     # Wrappers may be different in a queue, tree, heap, etc.
-    # They would also facilitate cross-language (e.g. network) communication
+    # They could also facilitate cross-language (e.g. network) communication
     def __init__(self, sandbox):
         # Convention > configuration
         assert "Stack" in sandbox, "Error: 'class Stack' undefined."

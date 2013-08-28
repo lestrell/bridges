@@ -1,6 +1,6 @@
 import requests
 import json
-import rauth # problems installing?
+#import rauth # problems installing?
 import webbrowser
 
 class GeoJSON(object):

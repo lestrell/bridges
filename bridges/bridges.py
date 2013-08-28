@@ -27,12 +27,12 @@ def run():
     sandbox = {}
     exec args.structure in sandbox
     
+    # This is basically equivalent to what the student would have to write 
     Driver(
-        source.GeoJSON(),
+        sources[args.source](),
         wrapper.Stack(sandbox),
         visual.Terminal # No ()
         ).push_multiple()
 
-# The student may need to write this too (from java? jgrasp?) as discussed
 if __name__ == '__main__':
     run()
