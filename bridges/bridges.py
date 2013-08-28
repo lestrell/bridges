@@ -14,11 +14,12 @@ class Driver(object):
             self.wrapper.push(item)
             self.visual.update(item)
 
-
-# The student may need to write this too (from java?) as discussed
-if __name__ == '__main__':
+def run():
     import argparse
+    sources = {name: value for name, value in source.__dict__.iteritems() if type(value) is type}
     ap = argparse.ArgumentParser()
+    ap.add_argument("source", choices=sources.keys(),
+                    help='data source')
     ap.add_argument("structure", type=argparse.FileType("r"),
                     help='filename of student structure')
     args = ap.parse_args()
@@ -31,3 +32,7 @@ if __name__ == '__main__':
         wrapper.Stack(sandbox),
         visual.Terminal # No ()
         ).push_multiple()
+
+# The student may need to write this too (from java? jgrasp?) as discussed
+if __name__ == '__main__':
+    run()
