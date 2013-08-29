@@ -3,6 +3,13 @@ import json
 import rauth
 import webbrowser
 
+'''
+    Possible source improvements:
+        It might be helpful if, regardless of where they came from, each type
+        implemented a few simple attributes, like ['text'] to improve
+        visualizations
+'''
+
 class GeoJSON(object):
     def __init__(self):
         self.url = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_day.geojson"
@@ -10,11 +17,13 @@ class GeoJSON(object):
     def update(self):
         response = json.loads(requests.get(self.url).text)
         
-        for item in response['features']:
-            yield item # dict(), could be str() or anything else
+        for quake in response['features']:
+            quake['text'] = 'Magnitude {mag} {place}'.format(**quake['properties'])
+            yield quake # dict(), could be str() or anything else
 
 class Twitter(object):
     # Most of this code comes from rauth documentation
+    # it may be more complex than necessary
     def __init__(self):
         service = rauth.OAuth1Service(
             name='twitter',
@@ -36,10 +45,10 @@ class Twitter(object):
                                    data={'oauth_verifier': pin})
     
     def update(self):
-        params = {'count': 10}       # 10 tweets
-
+        params = {'count': 10} # 10 tweets
         rjs = self.session.get('statuses/home_timeline.json', params=params)
         rjs = json.loads(rjs.text)
         # stub: reload and yield new ones until you hit a limit, get no more new ones, etc
         for tweet in rjs:
+            # No need to add a ['text'] - exists
             yield tweet

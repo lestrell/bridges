@@ -19,7 +19,7 @@ class StackTerminal(object):
             node = node.next
         
         # Format (assuming elements are strings)
-        stack = ['# {:<76} #'.format(str(node.element)[:76]) for node in stack]
+        stack = ['# {:<76} #'.format(str(node.element['text'])[:76]) for node in stack]
         stack = '\n'.join(stack)
         stack = '{1:#<80}\n{0}\n{1:#<80}'.format(stack, '')
         print stack

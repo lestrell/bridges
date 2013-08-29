@@ -1,6 +1,5 @@
 #
 # STUDENT WORK
-# This would be from another source (across a network, in Java probably.)
 #
 class Stack(object):
     def __init__(self):
