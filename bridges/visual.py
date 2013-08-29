@@ -1,4 +1,4 @@
-class Terminal(object):
+class StackTerminal(object):
     # Visualizations will need to be specific to a structure type
     # They may need to know what the data represents (messages? lat/lon?)
     #   if the visualization formats (globe? timeline?) are specific about that.

@@ -31,7 +31,7 @@ def run():
     Driver(
         sources[args.source](),
         wrapper.Stack(sandbox),
-        visual.Terminal # No ()
+        visual.StackTerminal # No ()
         ).push_multiple()
 
 if __name__ == '__main__':

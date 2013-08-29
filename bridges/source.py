@@ -1,6 +1,6 @@
 import requests
 import json
-#import rauth # problems installing?
+import rauth
 import webbrowser
 
 class GeoJSON(object):
@@ -24,13 +24,13 @@ class Twitter(object):
             access_token_url='https://api.twitter.com/oauth/access_token',
             authorize_url='https://api.twitter.com/oauth/authorize',
             base_url='https://api.twitter.com/1.1/')
-        request_token, request_token_secret = twitter.get_request_token()
-        authorize_url = twitter.get_authorize_url(request_token)
+        request_token, request_token_secret = service.get_request_token()
+        authorize_url = service.get_authorize_url(request_token)
         # This part is interactive
         print 'Visit this URL in your browser: ' + authorize_url
         webbrowser.open_new_tab(authorize_url)
         pin = raw_input('Enter PIN from browser: ')
-        self.session = twitter.get_auth_session(request_token,
+        self.session = service.get_auth_session(request_token,
                                    request_token_secret,
                                    method='POST',
                                    data={'oauth_verifier': pin})
