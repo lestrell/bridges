@@ -1,0 +1,12 @@
+setup.py
+bridges/__init__.py
+bridges/bridges.py
+bridges/source.py
+bridges/visual.py
+bridges/wrapper.py
+bridges.egg-info/PKG-INFO
+bridges.egg-info/SOURCES.txt
+bridges.egg-info/dependency_links.txt
+bridges.egg-info/entry_points.txt
+bridges.egg-info/requires.txt
+bridges.egg-info/top_level.txt

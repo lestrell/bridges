@@ -1,0 +1,77 @@
+#!/usr/bin/python
+# Bridges API prototype
+import source
+import wrapper
+import visual
+
+class Driver(object):
+    def __init__(self, source_inst, student, visual_class):
+        self.source = source_inst
+        self.student = student
+        self.visual = visual_class(student)
+
+    
+    def push_multiple(self):
+        for item in self.source.update():
+            self.student.push(item)
+            self.visual.update(item)
+
+def run():
+    import argparse
+    sources = {name: value for name, value in source.__dict__.iteritems() if type(value) is type}
+    ap = argparse.ArgumentParser()
+    ap.add_argument("source", choices=sources.keys(), help='data source')
+    ap.add_argument("structure", type=str, help='filename of student structure')
+    args = ap.parse_args()
+    
+    # The comments describe how this would change if the student wrote this
+    Driver(
+        # Equivalently: GeoJSON()
+        sources[args.source](),  
+        
+        # Could be:
+        #    wrapper.Heap(MyHeap())
+        # or if MyHeap implements push() or inherits/mixes in from (our) class:
+        #    MyHeap()
+        wrapper.Stack(wrapper.Sandbox(args.structure)),
+        
+        # No change
+        visual.StackTerminal
+        ).push_multiple()
+    
+    ''' So the student might write:
+    Driver( Twitter(), CircularQueue(), CircularQueueWebVisual() ).push_multiple()
+    or the equivalent in another language
+    '''
+
+if __name__ == '__main__':
+    run()
+#import jpype
+import imp
+
+class Stack(object): 
+    # Wrappers may be different in a queue, tree, heap, etc.
+    def __init__(self, wrapper):
+        self.stack = wrapper.Stack()
+    
+    @property
+    def root(self):
+        return self.stack.root
+        
+    def push(self, element):
+        self.stack.push(element)
+
+def Sandbox(filename):
+    # Very short since it's basically just python on python
+    return imp.load_source('student', filename)
+
+def JNI(filename):
+    # NOTE: not portable, and can only be run once (yet)
+    # see examples here http://iacobelli.cl/blog/?p=119
+    classpath = os.path.dirname(filename)
+    classname = os.path.splitext(os.path.basename(filename))[0].title()
+    jpype.startJVM("/usr/lib/jvm/default-java/jre/lib/amd64/server/libjvm.so",
+		   "-ea", "-Djava.class.path=%s" %classpath)
+    # -- incomplete -- returns a class rather than a namespace
+    return jpype.JClass(classname)
+ 

@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="100%"
+   height="100%"
+   viewBox="209 61 844 687"
+   id="svg2985"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Interactivity-c.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1535"
+     inkscape:window-height="876"
+     id="namedview274"
+     showgrid="false"
+     inkscape:zoom="1.1575153"
+     inkscape:cx="406.0013"
+     inkscape:cy="415.78696"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3049" />
+  <metadata
+     id="metadata3408">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2987">
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInL"
+       style="overflow:visible">
+      <path
+         id="path6729"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(-0.8)" />
+    </marker>
+    <linearGradient
+       id="linearGradient4392"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#54b5e2;stop-opacity:1;"
+         offset="0"
+         id="stop4394" />
+    </linearGradient>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         transform="scale(0.8,0.8)"
+         id="path4706"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         id="path4567"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="0"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id11"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 0,7 7,10.5 z"
+         id="path2990"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id12"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path2993"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id13"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path2996"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id14"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path2999"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="0"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id16"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 0,7 7,10.5 z"
+         id="path3002"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="0"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id17"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 0,7 7,10.5 z"
+         id="path3005"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id25"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3008"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id26"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3011"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="0"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id27"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 0,7 7,10.5 z"
+         id="path3014"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id28"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3017"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id29"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3020"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id30"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3023"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id32"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3026"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id33"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3029"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id36"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3032"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id37"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3035"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id38"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3038"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id39"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3041"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id42"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3044"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <marker
+       markerUnits="userSpaceOnUse"
+       refX="14"
+       refY="7"
+       markerWidth="14"
+       markerHeight="14"
+       orient="auto"
+       viewBox="0 0 14.0 14.0"
+       preserveAspectRatio="xMidYMid meet"
+       id="id43"
+       style="overflow:visible">
+      <path
+         d="M 7,3.5 14,7 7,10.5 z"
+         id="path3047"
+         style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round" />
+    </marker>
+    <clipPath
+       id="id19">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3215"
+         d="M 0,0 150,0 150,40 0,40 z" />
+    </clipPath>
+  </defs>
+  <g
+     id="g3049"
+     transform="translate(-0.86391944,0)">
+    <g
+       transform="matrix(1,0,0,0.38775638,225.94174,141.68514)"
+       id="g3051">
+      <path
+         d="m 232.63547,657.07152 -232.66900246,0 0,-657.14304039 232.66900246,0 0,657.14304039 z"
+         id="path3053"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.90205604;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(1,1)"
+         id="g3055">
+        <clipPath
+           id="id0">
+          <path
+             d="m 0,0 284,0 0,655 -284,0 z"
+             id="path3058"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <text
+           clip-path="url(#id0)"
+           id="text3060"
+           style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'" />
+      </g>
+    </g>
+    <g
+       id="g6098"
+       transform="translate(255.07038,302.40776)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+         id="path6100"
+         d="M 87,50 0,50 0,0 87,0 87,50 z" />
+      <g
+         id="g6102"
+         transform="translate(1,1)">
+        <clipPath
+           id="clipPath6104">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6106"
+             d="M 0,0 85,0 85,48 0,48 z" />
+        </clipPath>
+      </g>
+    </g>
+    <g
+       transform="translate(762,99)"
+       id="g3082">
+      <clipPath
+         id="id3">
+        <path
+           d="M 0,0 150,0 150,40 0,40 z"
+           id="path3085"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <text
+         clip-path="url(#id3)"
+         id="text3087"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'">
+        <tspan
+           x="2"
+           y="14"
+           id="tspan3089"
+           xml:space="preserve">Python</tspan>      </text>
+    </g>
+    <g
+       transform="translate(670.22572,309.35437)"
+       id="g3115">
+      <path
+         d="M 87,50 0,50 0,0 87,0 87,50 z"
+         id="path3117"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(1,1)"
+         id="g3119">
+        <clipPath
+           id="id6">
+          <path
+             d="M 0,0 85,0 85,48 0,48 z"
+             id="path3122"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <text
+           clip-path="url(#id6)"
+           id="text3124"
+           style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'">
+          <tspan
+             x="26"
+             y="28.5"
+             id="tspan3126"
+             xml:space="preserve">Driver</tspan>        </text>
+      </g>
+    </g>
+    <path
+       d="m 738.92462,250.46526 -6.14775,58.48045"
+       id="path3180"
+       style="fill:none;stroke:#000000;stroke-width:0.74384445;stroke-linejoin:round;marker-end:url(#id13)"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 642.85512,250.59343 42.36742,53.25488"
+       id="path3182"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;marker-end:url(#id14)"
+       inkscape:connector-curvature="0"
+       inkscape:transform-center-x="-93.203883"
+       inkscape:transform-center-y="13.592233" />
+    <g
+       transform="translate(738.51674,442.6883)"
+       id="g3184">
+      <g
+         id="g7799"
+         transform="translate(-93.303299,0.86391944)">
+        <text
+           sodipodi:linespacing="125%"
+           id="text7793"
+           y="27.715641"
+           x="-20.309464"
+           style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="27.715641"
+             x="-20.309464"
+             id="tspan7795"
+             sodipodi:role="line">Stack Terminal Visual</tspan></text>
+        <rect
+           y="-0.51577878"
+           x="-40.538353"
+           height="47.515575"
+           width="167.60036"
+           id="rect7797"
+           style="fill:none;stroke:#000000;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g7847">
+      <g
+         id="g3091"
+         transform="matrix(0.63970595,0,0,1,548.36495,139.97087)">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+           id="path3093"
+           d="M 387,133 0,133 0,0 l 387,0 0,133 z" />
+        <g
+           id="g3095"
+           transform="translate(1,1)">
+          <clipPath
+             id="id4">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3098"
+               d="m 0,0 385,0 0,131 -385,0 z" />
+          </clipPath>
+          <text
+             style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'"
+             id="text3100"
+             clip-path="url(#id4)" />
+        </g>
+      </g>
+      <g
+         id="g3102"
+         transform="translate(580.64806,198.97087)">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+           id="path3104"
+           d="M 81,50 0,50 0,0 81,0 81,50 z" />
+        <g
+           id="g3106"
+           transform="translate(1,1)">
+          <clipPath
+             id="id5">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3109"
+               d="M 0,0 79,0 79,48 0,48 z" />
+          </clipPath>
+          <text
+             style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'"
+             id="text3111"
+             clip-path="url(#id5)">
+            <tspan
+               xml:space="preserve"
+               id="tspan3113"
+               y="28.5"
+               x="21">Twitter</tspan>          </text>
+        </g>
+      </g>
+      <g
+         id="g3139"
+         transform="translate(683.14806,198.97087)">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+           id="path3141"
+           d="M 80,50 0,50 0,0 80,0 80,50 z" />
+        <g
+           id="g3143"
+           transform="translate(1,1)">
+          <clipPath
+             id="id8">
+            <path
+               inkscape:connector-curvature="0"
+               id="path3146"
+               d="M 0,0 78,0 78,48 0,48 z" />
+          </clipPath>
+          <text
+             style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'"
+             id="text3148"
+             clip-path="url(#id8)">
+            <tspan
+               xml:space="preserve"
+               id="tspan3150"
+               y="28.5"
+               x="11">GeoJSON</tspan>          </text>
+        </g>
+      </g>
+      <text
+         transform="translate(627.99571,150.02912)"
+         clip-path="url(#id19)"
+         id="text3217"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'">
+        <tspan
+           x="2"
+           y="14"
+           id="tspan3219"
+           xml:space="preserve">Pluggable Input</tspan>      </text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path6142"
+       d="m 758.45276,321.2238 34.55678,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutL)" />
+    <g
+       transform="translate(277,430)"
+       id="g3375">
+      <clipPath
+         id="id44">
+        <path
+           d="M 0,0 150,0 150,40 0,40 z"
+           id="path3378"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <text
+         clip-path="url(#id44)"
+         id="text3380"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'" />
+    </g>
+    <g
+       transform="translate(277.21359,197.95146)"
+       id="g3382">
+      <clipPath
+         id="id45">
+        <path
+           d="M 0,0 150,0 150,59 0,59 z"
+           id="path3385"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <text
+         clip-path="url(#id45)"
+         id="text3387"
+         style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'">
+        <tspan
+           x="2"
+           y="14"
+           id="tspan3389"
+           xml:space="preserve">- Bindings?</tspan>        <tspan
+           x="2"
+           y="29"
+           id="tspan3391"
+           xml:space="preserve">- Multiple processes</tspan>        <tspan
+           x="2"
+           y="44"
+           id="tspan3393"
+           xml:space="preserve">- Code duplication?</tspan>      </text>
+    </g>
+    <text
+       x="250.53523"
+       y="178.58968"
+       id="text5510"
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       sodipodi:linespacing="125%"><tspan
+         x="250.53523"
+         y="178.58968"
+         id="tspan5512">Java (or additional languages)</tspan></text>
+    <rect
+       style="fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:1.0527879;stroke-opacity:1"
+       id="rect4442"
+       width="104.48901"
+       height="50.432648"
+       x="535.55255"
+       y="306.27884" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6026"
+       y="324.90466"
+       x="588.16034"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;text-anchor:middle;text-align:center"
+       xml:space="preserve"><tspan
+         y="324.90466"
+         x="540.25702"
+         id="tspan6028"
+         sodipodi:role="line">JNI Proxy</tspan><tspan
+         y="339.90466"
+         x="540.25702"
+         sodipodi:role="line"
+         id="tspan7840">omitted for Java</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3257"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(209,61)"><flowRegion
+         id="flowRegion3259"><rect
+           id="rect3261"
+           width="61.165047"
+           height="49.514565"
+           x="444.66019"
+           y="186.02913" /></flowRegion><flowPara
+         id="flowPara3263" /></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutL)"
+       d="m 461.16505,265.64078 -28.15534,0"
+       id="path4444"
+       inkscape:connector-curvature="0"
+       transform="translate(209,61)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99166632px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#TriangleInL);marker-end:url(#TriangleOutL)"
+       d="m 534.6408,330.00607 -86.79269,0"
+       id="path4670"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g6112"
+       transform="translate(373.07038,302.40776)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+         id="path6114"
+         d="M 50,50 0,50 0,0 50,0 50,50 z" />
+      <g
+         id="g6116"
+         transform="translate(1,1)">
+        <clipPath
+           id="clipPath6118">
+          <path
+             inkscape:connector-curvature="0"
+             id="path6120"
+             d="M 0,0 48,0 48,48 0,48 z" />
+        </clipPath>
+        <text
+           style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'"
+           id="text6122"
+           clip-path="url(#id10)">
+          <tspan
+             xml:space="preserve"
+             id="tspan6124"
+             y="28.5"
+             x="9">Node</tspan>        </text>
+      </g>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;marker-start:url(#id11);marker-end:url(#id12)"
+       id="path6126"
+       d="m 342.07038,327.40776 31,0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       id="rect6128"
+       width="195.14563"
+       height="72.815536"
+       x="242.98058"
+       y="291.68933" />
+    <g
+       id="g7905">
+      <g
+         transform="translate(1.4830812,0)"
+         id="g7888">
+        <g
+           transform="translate(799.73058,330.5631)"
+           id="g3152">
+          <path
+             d="M 87,50 0,50 0,0 87,0 87,50 z"
+             id="path3154"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+             inkscape:connector-curvature="0" />
+          <g
+             transform="translate(1,1)"
+             id="g3156">
+            <clipPath
+               id="id9">
+              <path
+                 d="M 0,0 85,0 85,48 0,48 z"
+                 id="path3159"
+                 inkscape:connector-curvature="0" />
+            </clipPath>
+            <text
+               clip-path="url(#id9)"
+               id="text3161"
+               style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'"
+               transform="translate(21.242187,0)">
+              <tspan
+                 x="6"
+                 y="28.5"
+                 id="tspan3163"
+                 xml:space="preserve">Stack</tspan>            </text>
+          </g>
+        </g>
+        <g
+           transform="translate(917.73058,330.5631)"
+           id="g3165">
+          <path
+             d="M 50,50 0,50 0,0 50,0 50,50 z"
+             id="path3167"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round"
+             inkscape:connector-curvature="0" />
+          <g
+             transform="translate(1,1)"
+             id="g3169">
+            <clipPath
+               id="id10">
+              <path
+                 d="M 0,0 48,0 48,48 0,48 z"
+                 id="path3172"
+                 inkscape:connector-curvature="0" />
+            </clipPath>
+            <text
+               clip-path="url(#id10)"
+               id="text3174"
+               style="font-size:12px;font-style:normal;font-weight:normal;text-decoration:none;fill:#000000;font-family:'Arial,Arial'">
+              <tspan
+                 x="9"
+                 y="28.5"
+                 id="tspan3176"
+                 xml:space="preserve">Node</tspan>            </text>
+          </g>
+        </g>
+        <path
+           d="m 886.73058,355.5631 31,0"
+           id="path3178"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;marker-start:url(#id11);marker-end:url(#id12)"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         inkscape:transform-center-y="4.6435547"
+         inkscape:transform-center-x="-9.7087379"
+         sodipodi:linespacing="125%"
+         id="text6132"
+         y="315.96115"
+         x="859.06622"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="315.96115"
+           x="859.06622"
+           id="tspan6134"
+           sodipodi:role="line">Sandbox</tspan></text>
+      <rect
+         y="299.4563"
+         x="794.43695"
+         height="87.378647"
+         width="181.55342"
+         id="rect6136"
+         style="fill:none;stroke:#000000;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutL)"
+       d="m 409.49781,297.37233 47.51557,76.88883"
+       id="path7080"
+       inkscape:connector-curvature="0"
+       transform="translate(209,61)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutL)"
+       d="m 621.15807,328.47343 -109.71776,44.0599"
+       id="path7308"
+       inkscape:connector-curvature="0"
+       transform="translate(209,61)" />
+    <g
+       id="g7812"
+       transform="translate(203.88499,67.385716)">
+      <rect
+         transform="translate(209,61)"
+         y="378.58078"
+         x="129.58792"
+         height="50.107319"
+         width="285.95734"
+         id="rect7804"
+         style="fill:#afdde9;stroke:#000000;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text7808"
+         y="467.80435"
+         x="343.1037"
+         style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="467.80435"
+           x="343.1037"
+           id="tspan7810"
+           sodipodi:role="line">(Stack|Tree|..){Terminal|Web|GUI|jGrasp)Visual</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="233.25826"
+         y="40.788261"
+         id="text7836"
+         sodipodi:linespacing="125%"
+         transform="translate(5.9789294,-6.385716)"><tspan
+           sodipodi:role="line"
+           id="tspan7838"
+           x="233.25826"
+           y="40.788261">Proto0 Implementation</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="281.5694"
+       y="331.88138"
+       id="text7930"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7932"
+         x="281.5694"
+         y="331.88138">Stack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="414.68134"
+       y="118.54099"
+       id="text3160"
+       sodipodi:linespacing="125%"
+       transform="translate(209.86392,61)"><tspan
+         sodipodi:role="line"
+         id="tspan3162"
+         x="414.68134"
+         y="118.54099">including ['text']</tspan></text>
+  </g>
+</svg>
