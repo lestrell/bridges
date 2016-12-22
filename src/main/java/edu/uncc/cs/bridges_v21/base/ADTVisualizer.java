@@ -192,6 +192,7 @@ public class ADTVisualizer<K, E> {
 		LinkedList<Element<E>> nodes = new LinkedList<>(); 
 		LinkedList<Element<E>> links_src = new LinkedList<>();
 		LinkedList<Element<E>> links_dest = new LinkedList<>();
+		HashMap<String, Integer> link_weights = new HashMap<>();
 
 		HashMap<K, Element<E> > vertices = graph.getVertices();
 		HashMap<K, SLelement<Edge<K>> > adj_list = graph.getAdjacencyList();
@@ -209,11 +210,13 @@ public class ADTVisualizer<K, E> {
 				Edge<K> edge = list.getValue();
 				Element<E> dest_vertex = vertices.get(edge.getVertex());
 				links_dest.push(dest_vertex);
+
+				link_weights.put(vertices.get(element.getKey()).getLabel()+"-->"+dest_vertex.getLabel(), edge.getWeight());
 				list = list.getNext();
 			}
 		}
-						// use the singly linked list case to get the JSON!
-		return generateJSON_Graph(nodes, links_src, links_dest);
+						// use the singly linked list case to get the JSON! links_edges is nullable
+		return generateJSON_Graph(nodes, links_src, links_dest, link_weights);
 	}
 	
 	/**
@@ -230,6 +233,7 @@ public class ADTVisualizer<K, E> {
 		LinkedList<Element<E>> nodes = new LinkedList<>(); 
 		LinkedList<Element<E>> links_src = new LinkedList<>();
 		LinkedList<Element<E>> links_dest = new LinkedList<>();
+		HashMap<String, Integer> link_weights = new HashMap<>();
 
 		HashMap<K, Element<E> > vertices = graph.getVertices();
 		HashMap<K, HashMap<K, Integer> > matrix = graph.getAdjacencyMatrix();
@@ -244,10 +248,13 @@ public class ADTVisualizer<K, E> {
 										// get destination vertex
 				Element<E> dest_vert = vertices.get(el_dest.getKey());
 				links_dest.push(dest_vert);
+
+				link_weights.put(vertices.get(el_src.getKey()).getLabel()+"-->"+dest_vert.getLabel(), el_dest.getValue());
+
 			}
 		}
-						// use the singly linked list case to get the JSON!
-		return generateJSON_Graph(nodes, links_src, links_dest);
+						// use the singly linked list case to get the JSON! link_edges parameter is nullable
+		return generateJSON_Graph(nodes, links_src, links_dest, link_weights);
 	}
 
 
@@ -661,7 +668,8 @@ public class ADTVisualizer<K, E> {
 	 */
 	public String generateJSON_Graph (LinkedList<Element<E>> nodes, 
 				LinkedList<Element<E>> links_src, 
-				LinkedList<Element<E>> links_dest){
+				LinkedList<Element<E>> links_dest,
+			    HashMap<String, Integer> links_edges){
 	
 		HashMap<Integer,Integer> map = new HashMap<>();
 		StringBuilder nodes_JSON = new StringBuilder();
@@ -682,10 +690,20 @@ public class ADTVisualizer<K, E> {
 							// get the link
 			Element<E> child = links_dest.pop();
 			Element<E> parent = links_src.pop();
+			Integer edge = null;
+			if(links_edges != null){
+				edge = links_edges.get(child.getLabel() + "-->" + parent.getLabel());
+			}
 	
 							// get the link properties
 			LinkVisualizer lvis = parent.getLinkVisualizer(child);
 			if (lvis != null) {
+
+				//if edge is null, then it will be assigned the default edge weight 1.0, see LinkVisualizer.java
+				if(edge != null){
+					lvis.setWeight(edge);
+//				System.out.println(edge.getWeight()+": "+child.getLabel() + "-_-" + parent.getLabel());
+				}
 				str+= OPEN_CURLY + lvis.getLinkProperties() + COMMA;
 /*
 				for (Entry<String,String> entry : lvis.getProperties().entrySet()){
